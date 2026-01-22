@@ -9,6 +9,8 @@ const Page = async ({ params }: SearchParamProps) => {
 
   const files = await getFiles();
 
+  console.log("files", files);
+
   return (
     <div className="page-container">
       <section className="w-full">
