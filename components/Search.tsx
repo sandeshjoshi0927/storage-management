@@ -33,6 +33,7 @@ const Search = () => {
       setOpen(true);
     };
     fetchFile();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [debouncedQuery]);
 
   useEffect(() => {
